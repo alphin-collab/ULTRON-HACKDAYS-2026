@@ -1,0 +1,51 @@
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+**/credentials.json
+.aws/
+
+# Python environments, bytecode, and test/tool caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyright/
+.coverage
+htmlcov/
+
+# Models and generated artifacts
+models/
+model/
+*.gguf
+*.ggml
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.tflite
+build/
+dist/
+*.log
+
+# Audio captures and generated speech
+recordings/
+audio/
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
